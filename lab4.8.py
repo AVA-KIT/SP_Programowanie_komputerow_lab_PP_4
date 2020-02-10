@@ -8,7 +8,7 @@ PESEL = []
 NZNAKI = []
 for i in pesel:
     if i.isdigit() == True:
-        PESEL.append(i)
+        PESEL.append(int(i))
     else:
         NZNAKI.append(i)
 
@@ -20,7 +20,7 @@ def czyCyfry(znaki):
 czyCyfry(NZNAKI)
 
 def okresPlec(plec):
-    if int(plec) % 2 != 0:
+    if plec % 2 != 0:
         print('Jesteś mężczyzną')
     else:
         print('Jesteś kobietą')
