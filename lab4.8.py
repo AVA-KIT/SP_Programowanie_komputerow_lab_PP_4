@@ -1,12 +1,28 @@
+import sys
 pesel = input('Podaj PESEL: ')
-dl = len(pesel)
 
-while pesel.isdigit() == False:
-    pesel = input('Podaj poprawny PESEL: ')
-    if dl != 11:
-        pesel = input('Podaj poprawny PESEL: ')
+while len(pesel) != 11:
+    pesel = input('PESEL powinien posiadać 11 cyfr. Podaj poprawny PESEL: ')
+
+PESEL = []
+NZNAKI = []
+for i in pesel:
+    if i.isdigit() == True:
+        PESEL.append(i)
     else:
-        break
+        NZNAKI.append(i)
 
+def czyCyfry(znaki):
+    if  len(znaki) != 0:
+        print('Niedozwolone znaki: ', znaki, '. Zacznij od początku')
+        sys.exit(0)
 
-print(pesel)
+czyCyfry(NZNAKI)
+
+def okresPlec(plec):
+    if int(plec) % 2 != 0:
+        print('Jesteś mężczyzną')
+    else:
+        print('Jesteś kobietą')
+
+okresPlec(PESEL[9])
