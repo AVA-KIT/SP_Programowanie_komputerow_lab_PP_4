@@ -1,5 +1,5 @@
 # SP_Programowanie_komputerow_lab_PP_4
-Studia podyplomowe Podstawy programowania - Python, Wydział Informatyki, ZUT w Szczecinie - Laboratorium 4 - Funkcje
+Studia podyplomowe Podstawy programowania - Python, Wydział Informatyki, ZUT w Szczecinie - Laboratorium 4
 
 Zadanie	1:
 Napisz	program,	który	usunie	z	pewnej	listy	wszystkie	powtórzenia	jej	elementów.	Np.	
@@ -85,6 +85,6 @@ Wielokrotność)	dwóch	liczb	naturalnych	pobranych	od	użytkownika.
 Zadanie	12:
 Ciąg	Fibonacciego	to	ciąg,	w	którym	pierwsze	dwa	pierwsze wyrazy	są	równe	1,	a	kolejne	
 liczy	się	zawsze	jako	sumę	dwóch	poprzednich.	Oznacza	to,	że	początkowe	wyrazy	tego	
-ciągu	to:	1,	1,	2,	3,	5,	8,	13,	21,	34,	...	(było	na	wykładzie	J)
+ciągu	to:	1,	1,	2,	3,	5,	8,	13,	21,	34,	...	(było	na	wykładzie	:-))
 Napisz	program,	który	zapyta	użytkownika	o	numer	wyrazu	i	obliczy	jego	wartość.	Należy	
 wypisać	tylko	wyraz	o	podanym	numerze,	np.	liczba	nr	4	to:	3).
